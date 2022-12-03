@@ -3,53 +3,58 @@
 ## version of Fira Code you're using will be skipped.
 ## To disable ligatures, simply comment them out in this file.
 ligatures = [
-    # {
-    #     ## These are all the punctuation characters used in Fira Code ligatures.
-    #     ## Use the `--copy-character-glyphs` option to copy these into the output
-    #     ## font along with the ligatures themselves.
-    #     'chars': [
-    #         ## These characters generally look good in most fonts and are
-    #         ## enabled by default if you use `--copy-character-glyphs`.
-    #         # 'ampersand', 'asciicircum', 'asciitilde', 'asterisk',
-    #         # 'backslash', 'bar',
-    #         # 'colon', 'equal', 'exclam', 'greater', 'hyphen',
-    #         # 'less', 'numbersign', 'percent', 'period', 'plus',
-    #         # 'question', 'semicolon', 'slash', 'underscore',
+    {
+        ## These are all the punctuation characters used in Fira Code ligatures.
+        ## Use the `--copy-character-glyphs` option to copy these into the output
+        ## font along with the ligatures themselves.
+        'chars': [
+            ## These characters generally look good in most fonts and are
+            ## enabled by default if you use `--copy-character-glyphs`.
+            'ampersand', 'asciicircum', 'asciitilde', 'asterisk',
+            'backslash', 'bar',
+            'colon', 'equal', 'exclam', 'greater', 'hyphen',
+            'less', 'numbersign', 'percent', 'period', 'plus',
+            'question', 'semicolon', 'slash', 'underscore',
 
-    #         ## These characters are also used by the ligatures, but are likely
-    #         ## to look more out of place when spliced into another font.
-    #         # 'at', 'braceleft', 'braceright', 'bracketleft', 'bracketright',
-    #         # 'dollar', 'parenleft', 'parenright', 'underscore', 'w'
-    #     ],
-    #     'firacode_ligature_name': None,
-    # },
+            ## These characters are also used by the ligatures, but are likely
+            ## to look more out of place when spliced into another font.
+            'at', 'braceleft', 'braceright', 'bracketleft', 'bracketright',
+            'dollar', 'parenleft', 'parenright', 'underscore', 'w'
+        ],
+        'firacode_ligature_name': None,
+    },
     ## These are traditional (i.e. present in most variable-width fonts)
     ## aesthetic ligatures. They are commented out here so that they don't
     ## overwrite similar ligatures present in the destination font.
-    # {   # Fl
-    #     'chars': ['F', 'l'],
-    #     'firacode_ligature_name': 'F_l.liga',
-    # },
-    # {   # Tl
-    #     'chars': ['T', 'l'],
-    #     'firacode_ligature_name': 'T_l.liga',
-    # },
-    # {   # fi
-    #     'chars': ['f', 'i'],
-    #     'firacode_ligature_name': 'f_i.liga',
-    # },
-    # {   # fj
-    #     'chars': ['f', 'j'],
-    #     'firacode_ligature_name': 'f_j.liga',
-    # },
-    # {   # fl
-    #     'chars': ['f', 'l'],
-    #     'firacode_ligature_name': 'f_l.liga',
-    # },
-    # {   # ft
-    #     'chars': ['f', 't'],
-    #     'firacode_ligature_name': 'f_t.liga',
-    # },
+    {   # Fl
+        'chars': ['F', 'l'],
+        'firacode_ligature_name': 'F_l.liga',
+    },
+    {   # Tl
+        'chars': ['T', 'l'],
+        'firacode_ligature_name': 'T_l.liga',
+    },
+    {   # fi
+        'chars': ['f', 'i'],
+        'firacode_ligature_name': 'f_i.liga',
+    },
+    {   # fj
+        'chars': ['f', 'j'],
+        'firacode_ligature_name': 'f_j.liga',
+    },
+    {   # fl
+        'chars': ['f', 'l'],
+        'firacode_ligature_name': 'f_l.liga',
+    },
+    {   # ft
+        'chars': ['f', 't'],
+        'firacode_ligature_name': 'f_t.liga',
+    },
+    ## My attempt to use alternate characters
+    {   # &
+        'chars': ['&'],
+        'firacode_ligature_name': 'ss03.fea',
+    },
     ## Programming ligatures begin here.
     # {   # &&
     #     'chars': ['ampersand', 'ampersand'],
